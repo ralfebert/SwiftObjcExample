@@ -8,26 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		BFACECB92243DD5B00DE4BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFACECB82243DD5B00DE4BAF /* AppDelegate.swift */; };
-		BFACECBB2243DD5B00DE4BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFACECBA2243DD5B00DE4BAF /* ViewController.swift */; };
+		BFACECBB2243DD5B00DE4BAF /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFACECBA2243DD5B00DE4BAF /* SwiftViewController.swift */; };
 		BFACECBE2243DD5B00DE4BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFACECBC2243DD5B00DE4BAF /* Main.storyboard */; };
 		BFACECC02243DD5C00DE4BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFACECBF2243DD5C00DE4BAF /* Assets.xcassets */; };
 		BFACECC32243DD5C00DE4BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFACECC12243DD5C00DE4BAF /* LaunchScreen.storyboard */; };
-		BFACECE92243DD8D00DE4BAF /* HelloFromObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = BFACECE82243DD8D00DE4BAF /* HelloFromObjc.m */; };
-		BFACED09224412DF00DE4BAF /* HelloFromSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFACED08224412DF00DE4BAF /* HelloFromSwift.swift */; };
+		BFACECE92243DD8D00DE4BAF /* GreeterObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = BFACECE82243DD8D00DE4BAF /* GreeterObjc.m */; };
+		BFACED09224412DF00DE4BAF /* GreeterSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFACED08224412DF00DE4BAF /* GreeterSwift.swift */; };
+		BFF4F3732258EEC900D30477 /* ObjcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF4F3722258EEC900D30477 /* ObjcViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BFACECB52243DD5B00DE4BAF /* SwiftObjcExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftObjcExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFACECB82243DD5B00DE4BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFACECBA2243DD5B00DE4BAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFACECBA2243DD5B00DE4BAF /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 		BFACECBD2243DD5B00DE4BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFACECBF2243DD5C00DE4BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFACECC22243DD5C00DE4BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFACECC42243DD5C00DE4BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFACECE62243DD8D00DE4BAF /* SwiftObjcExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftObjcExample-Bridging-Header.h"; sourceTree = "<group>"; };
-		BFACECE72243DD8D00DE4BAF /* HelloFromObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloFromObjc.h; sourceTree = "<group>"; };
-		BFACECE82243DD8D00DE4BAF /* HelloFromObjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloFromObjc.m; sourceTree = "<group>"; };
-		BFACED08224412DF00DE4BAF /* HelloFromSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFromSwift.swift; sourceTree = "<group>"; };
+		BFACECE72243DD8D00DE4BAF /* GreeterObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreeterObjc.h; sourceTree = "<group>"; };
+		BFACECE82243DD8D00DE4BAF /* GreeterObjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreeterObjc.m; sourceTree = "<group>"; };
+		BFACED08224412DF00DE4BAF /* GreeterSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreeterSwift.swift; sourceTree = "<group>"; };
+		BFF4F3712258EEC900D30477 /* ObjcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcViewController.h; sourceTree = "<group>"; };
+		BFF4F3722258EEC900D30477 /* ObjcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,15 +64,17 @@
 			isa = PBXGroup;
 			children = (
 				BFACECB82243DD5B00DE4BAF /* AppDelegate.swift */,
-				BFACECBA2243DD5B00DE4BAF /* ViewController.swift */,
 				BFACECBC2243DD5B00DE4BAF /* Main.storyboard */,
 				BFACECBF2243DD5C00DE4BAF /* Assets.xcassets */,
 				BFACECC12243DD5C00DE4BAF /* LaunchScreen.storyboard */,
 				BFACECC42243DD5C00DE4BAF /* Info.plist */,
-				BFACECE72243DD8D00DE4BAF /* HelloFromObjc.h */,
-				BFACECE82243DD8D00DE4BAF /* HelloFromObjc.m */,
+				BFACECBA2243DD5B00DE4BAF /* SwiftViewController.swift */,
+				BFF4F3712258EEC900D30477 /* ObjcViewController.h */,
+				BFF4F3722258EEC900D30477 /* ObjcViewController.m */,
+				BFACECE72243DD8D00DE4BAF /* GreeterObjc.h */,
+				BFACECE82243DD8D00DE4BAF /* GreeterObjc.m */,
+				BFACED08224412DF00DE4BAF /* GreeterSwift.swift */,
 				BFACECE62243DD8D00DE4BAF /* SwiftObjcExample-Bridging-Header.h */,
-				BFACED08224412DF00DE4BAF /* HelloFromSwift.swift */,
 			);
 			path = SwiftObjcExample;
 			sourceTree = "<group>";
@@ -146,9 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFACED09224412DF00DE4BAF /* HelloFromSwift.swift in Sources */,
-				BFACECE92243DD8D00DE4BAF /* HelloFromObjc.m in Sources */,
-				BFACECBB2243DD5B00DE4BAF /* ViewController.swift in Sources */,
+				BFACED09224412DF00DE4BAF /* GreeterSwift.swift in Sources */,
+				BFACECE92243DD8D00DE4BAF /* GreeterObjc.m in Sources */,
+				BFF4F3732258EEC900D30477 /* ObjcViewController.m in Sources */,
+				BFACECBB2243DD5B00DE4BAF /* SwiftViewController.swift in Sources */,
 				BFACECB92243DD5B00DE4BAF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +312,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftObjcExample/SwiftObjcExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -325,7 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwiftObjcExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftObjcExample/SwiftObjcExample-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

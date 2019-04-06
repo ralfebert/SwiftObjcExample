@@ -10,9 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HelloFromObjc : NSObject
+@interface GreeterObjc : NSObject
 
-- (void) helloWithName:(NSString *)name;
+- (void) greetWithName:(NSString *)name;
 
 @end
 

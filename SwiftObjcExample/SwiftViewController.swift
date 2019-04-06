@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SwiftViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        HelloFromObjc().hello(withName: "Bob")
-
+    @IBAction func greet() {
+        GreeterObjc().greet(withName: "Bob")
+        GreeterSwift().greet(name: "Bob")
     }
-
+    
 }

@@ -6,15 +6,13 @@
 //  Copyright © 2019 Ralf Ebert. All rights reserved.
 //
 
-#import "HelloFromObjc.h"
-#import "SwiftObjcExample-Swift.h"
+#import "GreeterObjc.h"
 
-@implementation HelloFromObjc
+@implementation GreeterObjc
 
-- (void) helloWithName:(NSString *)name {
+- (void) greetWithName:(NSString *)name {
     
     NSLog(@"Hello from Objective-C to %@", name);
-    [[[HelloFromSwift alloc] init] helloWithName:name];
     
 }
 
